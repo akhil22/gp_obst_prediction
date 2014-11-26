@@ -1,0 +1,7 @@
+<launch>
+<node pkg="gp_obst_prediction" type="prediction_node" name="gp_ob_prediction" output="screen">
+<rosparam param="dataset_dir">/home/akhil/traj1</rosparam>
+<rosparam param="hyper_param_file">/home/akhil/hyp.txt</rosparam>
+<rosparam param="input_indexes">[0,1]</rosparam>
+</node>
+</launch>
